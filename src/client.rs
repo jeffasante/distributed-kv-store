@@ -3,7 +3,6 @@
 // a client to connect to our server
 
 use crate::error::{Result, StoreError};
-use crate::network::Server;
 use tokio::io::{AsyncBufReadExt, AsyncWriteExt, BufReader};
 use tokio::net::TcpStream;
 
